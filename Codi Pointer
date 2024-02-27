@@ -1,0 +1,11 @@
+//Codi que canvia el cursor de posició
+
+private void button2_Click(object sender, EventArgs e)
+ {
+     Cursor.Position = PointToScreen(button3.Location);
+ }
+
+ private void button3_Click(object sender, EventArgs e)
+ {
+     Cursor.Position = PointToScreen(button2.Location);
+ }
